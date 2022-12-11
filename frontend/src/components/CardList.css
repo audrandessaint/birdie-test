@@ -1,0 +1,11 @@
+.card-list {
+    list-style: none;
+    padding: 0;
+}
+
+.card-list-item {
+    padding: 20px;
+    background-color: rgb(79, 179, 175);
+    border-radius: 5px;
+    margin-top: 10px;
+}

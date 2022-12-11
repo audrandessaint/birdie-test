@@ -1,0 +1,24 @@
+.home-page {
+    background-color: white;
+}
+
+.home-page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 39, 74);
+    height: 50px;
+}
+
+#homepage-tabpanel-0 {
+    width: 100%;
+}
+#homepage-tabpanel-1 {
+    width: 100%;
+}
+#homepage-tabpanel-2 {
+    width: 100%;
+}
+#homepage-tabpanel-3 {
+    width: 100%;
+}

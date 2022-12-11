@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Birdie Bold";
+  src: local("AtkinsonHyperlegible-Bold"),
+    url("./assets/fonts/AtkinsonHyperlegible-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Birdie Regular";
+  src: local("AtkinsonHyperlegible-Regular"),
+    url("./assets/fonts/AtkinsonHyperlegible-Regular.ttf") format("truetype");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  color: white;
+  background-color: rgb(8, 39, 74);
+  font-family: 'birdie bold';
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+code {
+  color: white;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  height: 100%;
+}

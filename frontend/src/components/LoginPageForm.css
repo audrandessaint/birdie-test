@@ -1,0 +1,29 @@
+.login-page-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    padding-right: 10px;
+}
+
+input {
+    border-width: 0px;
+    border-radius: 999em;
+    height: 25px;
+}
+
+a {
+    background-color: rgb(79, 179, 175);
+    border-width: 0;
+    border-radius: 999em;
+    height: 25px;
+    width: min(300px, 80%);
+    margin: 10px;
+}
+
+a:hover {
+    background-color: rgb(70, 165, 160);
+}
